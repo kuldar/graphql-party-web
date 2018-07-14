@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "version": "0.0.1",
+  "name": "graphql-party-web",
+  "author": "Kuldar Kalvik",
+  "repository": "git@github.com:kuldar/graphql-party-web.git",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "apollo-boost": "0.1.6",
+    "babel-plugin-styled-components": "1.5.1",
+    "graphql": "0.13.2",
+    "http": "0.0.0",
+    "isomorphic-unfetch": "2.0.0",
+    "moment": "2.22.1",
+    "next": "6.0.3",
+    "path-match": "1.2.4",
+    "polished": "1.9.2",
+    "prop-types": "15.6.1",
+    "react": "16.3.2",
+    "react-apollo": "2.1.4",
+    "react-dom": "16.3.2",
+    "react-ga": "2.5.2",
+    "styled-components": "3.2.6",
+    "url": "0.11.0"
+  }
+}
